@@ -1,0 +1,10 @@
+.env
+env
+.venv
+venv
+__pycache__
+data/*
+!data/.gitkeep
+chroma_*
+chroma
+.log

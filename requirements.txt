@@ -1,0 +1,7 @@
+langchain==0.3.3
+langchain_chroma==0.1.4
+langchain_cohere==0.3.1
+langchain_community==0.3.2
+langchain_core==0.3.10
+python-dotenv==1.0.1
+python-telegram-bot==21.6

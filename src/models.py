@@ -24,7 +24,7 @@ retriever = vectorstore.as_retriever()
 system_prompt = (
     "You are an assistant designed to assist users by providing information, if possible based on the context provided."
     "You must not guess, provide information that is not explicitly mentioned, hallucinate or create answers ."
-    "Keep it concise."
+    "Keep it concise and clear."
     "\n\n"
     "{context}"
 )

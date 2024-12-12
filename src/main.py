@@ -13,7 +13,7 @@ def main():
     app.add_handler(CommandHandler('start', start_command))    
     app.add_handler(CommandHandler('help', help_command))    
     app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
-    app.add_error_handler(error) # just outputs errors (for now)
+    app.add_error_handler(error) 
 
     print("polling...")
     app.run_polling(poll_interval=3)
